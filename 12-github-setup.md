@@ -116,7 +116,7 @@ temporarily in memory. Thankfully, you can actually tell git to use Windows
 Credential Manager. Just run the following command in WSL:
 
 ```shell
-git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe"
 ```
 
 You now have WSL trying to use the git-credential-manager-core to facilitate your

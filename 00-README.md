@@ -15,6 +15,12 @@ Chrome, Visual Studio Code, Node.JS, Python, and Docker.
 > Important, if you have an Apple Silicon Mac be sure to read the
 > [Apple Silicon Mac Addendum] before you start installing software.
 
+> **Prepworkers**: If you are working on the "Online Learning and Challenge Modules"
+> course, you do not need to install Node.JS, Python, or Docker to complete the
+> assessments. If you are working on the "[Beta] Solo Prep Work" course, you
+> need to install Node.JS, but do not need Python or Docker yet. All prepworkers
+> must properly configure Git by following the instructions in [Git Setup].
+
 - [macOS Setup]
 - [Windows Setup]
 - [Ubuntu Setup]
@@ -29,3 +35,4 @@ reading this:
 [macOS Setup]: 01-macos-setup.md
 [Windows Setup]: 02-windows-setup.md
 [Ubuntu Setup]: 03-ubuntu-setup.md
+[Git Setup]: 12-github-setup.md

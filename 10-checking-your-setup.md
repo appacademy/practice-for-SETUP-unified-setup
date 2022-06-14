@@ -1,9 +1,16 @@
 # Checking your Setup
 
+> **Prepworkers**: If you are working on the "Online Learning and Challenge
+> Modules" course, you do not need to install Node.JS, Python, or Docker to complete
+> the assessments. Therefore, you can ignore setup-checker messages for
+> those programs until you enroll in the course. If you are working on the
+> "[Beta] Solo Prep Work" course, you can ignore any Python or Docker issues
+> until you enroll in the course.
+
 It can be difficult to know if you've followed all the steps correctly. There
 are so many things that can go wrong, and everyone's computer is different. To
 help with this problem, AppAcademy has created a script that checks your setup
-to verify it is done correctly.
+to verify it is done correctly and is ready for the SWE Online program.
 
 To run this script, simply open a terminal and run this command:
 

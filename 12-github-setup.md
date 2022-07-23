@@ -99,9 +99,17 @@ code.
 
 Thankfully, git handles this authentication flow automatically. But for GitHub,
 you can't use your GitHub account password. Instead, you can use a Personal
-Access Token (PAT) as a password to authenticate to Github and save it in a
-password manager of sorts so you don't have to use the PAT with every command
-that requires authentication.
+Access Token (PAT) or an SSH key as a password to authenticate to Github and
+save it in a password manager of sorts so you don't have to use the token with
+every command that requires authentication.
+
+__If you have _never_ configured GitHub before, follow the instructions below to
+set up your Secrets Manager and Personal Access Token. This is the recommended
+approach for App Academy.__
+
+If you are already using the SSH approach, then no need to follow the
+instructions below! You can reference this [SSH article] instead for
+troubleshooting your setup if needed.
 
 ### Secrets Manager
 
@@ -161,3 +169,4 @@ Github, and use that as your authentication for a privileged command.
 
 [git-win]: https://git-scm.com/download/win
 [PAT]: https://github.com/settings/tokens
+[SSH article]: https://hackmd.io/@AgDXdHgSSPKsJIhCxlaTuA/BJtNu88fF

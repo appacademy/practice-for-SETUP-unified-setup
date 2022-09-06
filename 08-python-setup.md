@@ -40,7 +40,7 @@ code ~/.zshrc
 ```shell
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 ```
 
 ### If your shell is `bash`
@@ -52,7 +52,7 @@ code ~/.bashrc
 ```shell
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
 ```
 
 To get your startup file to execute, restart your terminal.

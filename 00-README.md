@@ -1,4 +1,4 @@
-# Setting up your computer for AppAcademy
+# Setting up your computer for App Academy
 
 In order to be successful in the course, your computer needs to be setup in a
 very specific way. If the setup is correct, you will not waste your time

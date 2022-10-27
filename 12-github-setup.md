@@ -1,4 +1,4 @@
-You will be making commits forYou will be making commits forYou will be making commits forYou will be making commits forYou will be making commits forYou will be making commits for# GitHub Setup
+# GitHub Setup
 
 ## Getting Started with git
 

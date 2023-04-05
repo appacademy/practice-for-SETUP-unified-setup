@@ -32,27 +32,33 @@ instructions to update the startup files associated with the shell that you are
 running.
 
 ### If your shell is `zsh`
+
 1. Open your `.zshrc` with the following command
 ```shell
 code ~/.zshrc
 ```
+
 2. Add the following lines.
 ```shell
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 ```
 
 ### If your shell is `bash`
+
 1. Open your `.bashrc` with the following command
 ```shell
 code ~/.bashrc
 ```
+
 2. Add the following lines.
 ```shell
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 ```
 
 To get your startup file to execute, restart your terminal.
@@ -128,7 +134,7 @@ pip install pipenv
 
 After you have installed pipenv, add this line to your shell startup
 file (either your `.bashrc` or your `.zshrc`) somewhere after
-the  `eval "$(pyenv init -)"`:
+the  `eval "$(pyenv init --path)"`:
 
 ```shell
 export PIPENV_VENV_IN_PROJECT=1

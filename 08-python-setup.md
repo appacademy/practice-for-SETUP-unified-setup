@@ -76,12 +76,19 @@ First, run this command to update your apt repositories:
 sudo apt update
 ```
 
-Then, run this command to install the packages listed on the pyenv.
+Then, run this command to install the packages listed on the pyenv:
 
 ```shell
 sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+xz-utils tk-dev libffi-dev liblzma-dev git
+```
+
+If you are using an Ubuntu version earlier than 22 (you can use the command
+`lsb_release -a` to check your version), run this command as well:
+
+```shell
+sudo apt-get install -y python-openssl
 ```
 
 ## Apple Silicon ONLY: Install openssl and readline

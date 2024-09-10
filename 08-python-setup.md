@@ -81,7 +81,7 @@ Then, run this command to install the packages listed on the pyenv.
 ```shell
 sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
 ```
 
 ## Apple Silicon ONLY: Install openssl and readline
